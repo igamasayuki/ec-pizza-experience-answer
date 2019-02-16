@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.csstest {
+    height:  200px;             /* 高さ指定 */
+    width:  200px;              /* 幅指定 */
+    position: relative;         /* 位置指定 */
+    animation: anime 1.5s 0s infinite alternate;  /* アニメーション指定 */
+}
+
+@keyframes anime {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 60%;
+    }
+}

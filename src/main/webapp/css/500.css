@@ -1,0 +1,9 @@
+.image {
+	float: left;
+}
+
+.imageContainer {
+	overflow: hidden;
+}
+
+p.left {text-align: left}
